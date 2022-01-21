@@ -20,7 +20,7 @@ a {
 }
 
 #wave-btn {
-  @apply fixed transition-all rounded-md bg-gradient-to-r from-purple-600 to-orange-500
+  @apply  transition-all rounded-md bg-gradient-to-r from-purple-600 to-orange-500
   px-6 py-3 text-white shadow-lg font-semibold hover:bg-gradient-to-r
 hover:from-orange-500 hover:to-purple-600 focus:ring-2 focus:ring-purple-700 focus:ring-opacity-75 ring-offset-2 text-lg;
 }
