@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#wave-btn {
+  @apply fixed transition-all rounded-md bg-gradient-to-r from-purple-600 to-orange-500
+  px-6 py-3 text-white shadow-lg font-semibold hover:bg-gradient-to-r
+hover:from-orange-500 hover:to-purple-600 focus:ring-2 focus:ring-purple-700 focus:ring-opacity-75 ring-offset-2 text-lg;
+}
+
+#title {
+  @apply text-4xl font-mono font-extrabold;
+}
+
+#bio {
+  @apply text-2xl font-mono font-bold
+}
+
+.center-text {
+  @apply text-center;
+}
